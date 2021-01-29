@@ -1,0 +1,13 @@
+ZadatakA)
+	Resenje zadatka su brojevi: 1.2, 1.25, 1.5, 3.16.
+	Maksimalan broj poziva je 711^4, medjutim, zbog optimizacije poziva se 43376770477 puta.
+
+ZadatakB)
+	Resenje zadatka su brojevi: 1.2, 1.25, 1.5, 3.16.
+	Maksimalan broj poziva je 711^3 (izostavljena jedna for petlja i optimizovan nacin racuanja poslednjeg broja), medjutim, 
+	zbog optimizacije poziva se 60922431 putaputa.
+	Program dosta brze radi od programa u ZadatakA.
+
+ZadatakC)
+	Dosta je brzi program ZadatakB zato sto ima 3 umesto 4 for petlje pa je samim tim vremenska slozenost O(n^3), a to je postignuto
+	tako sto se poslednji broj izracunava na osnovu prethodna tri (a ne krzo for petlju).
